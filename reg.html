@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="connect.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter your name" name="firstname" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last name</span>
+            <input type="text" placeholder="Enter your last name" name="lastname" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" name="email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" name="Phone" required>
+          </div>
+          <div class="input-box">
+            <span class="details">LinkedIn profile link</span>
+            <input type="text" value="http://" name="LinkedIn" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Drupal.org Profile link</span>
+            <input type="text" value="http://" name="drupal" required>
+          </div>
+    
+        <div class="input-box">
+            <span class="details">Please select your city:</span>
+            <input type="radio" name="city" value="Delhi">
+            <label for="delhi">Delhi</label>
+            <input type="radio" name="city" value="Other">
+            <label for="ohter">Other</label>
+
+        </div>
+       
+          </div>
+
+          <div class="input-box">
+            <span class="details">City Name</span>
+            <input type="text" placeholder="Enter your city" required>
+          </div>
+
+          <div class="input-box">
+          <span class="relocate-title details details">Relocate</span>
+
+          </div>
+          <div class="category">
+            <label for="dot-1">
+            <input type="radio" name="relocate" id="">
+            <span class="relocate">Yes</span>
+          </label>
+          <label for="dot-2">
+            <input type="radio" name="relocate" id="">
+            <span class="relocate">No</span>
+          </label>
+          <label for="dot-2">
+            <input type="radio" name="relocate" id="">
+            <span class="relocate">Not Sure</span>
+          </label>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Position you are applying for? </span>
+            <input type="text" placeholder="Enter position" name="position" required>
+          </div>
+
+          <label">Start Date</label>
+            <div class="col-10">
+            <input class="form-control" name="starting_date" type="date" value="2021-06-07" id="example-date-input">
+
+
+          <div class="input-box">
+            <span class="details">Last company you worked for? </span>
+            <input type="text" placeholder="Company name" name="org" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Comment</span>
+            <input type="text" name="cmmnt" required>
+          </div>
+
+        </div>
+    
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
